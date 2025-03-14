@@ -6,15 +6,21 @@ package interfazanimalon;
 
 /**
  *
- * @author luisr
+ * @author luisitocomunica
  */
 public class InterfazAnimalon {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main (String[] args) //main del programa
+    {
+        Animalon perro = new Perron();
+        Animalon gato = new Gato();
+        
+        perro.hacerSonido();
+        perro.mover();
+        
+        System.out.println();
+        
+        gato.hacerSonido();
+        gato.mover();
     }
     
 }
